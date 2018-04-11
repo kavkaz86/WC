@@ -74,11 +74,11 @@ bool  tx_type = false;
 SoftwareSerial  rf(RXD, TXD);
 
 void setup() {
-  // put your setup code here, to run once:
+  
   inputString.reserve(200);
-  //pinMode(RX_LED, OUTPUT);
+  
   pinMode(TX_LED, OUTPUT);
-  //pinMode(ROUTE_LED, OUTPUT);
+  
   pinMode(PWR_LED, OUTPUT);
   pinMode(M0, OUTPUT);
   pinMode(M1, OUTPUT);
